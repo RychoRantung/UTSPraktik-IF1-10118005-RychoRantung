@@ -9,7 +9,12 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
-
+/*
+ * Tanggal Pengerjaan : 5 Juni 2021
+ * NIM   : 10118005
+ * Nama  : Rycho Rantung
+ * Kelas : IF-1
+ */
 public class CekDataActivity extends AppCompatActivity {
     public static final String Extra_NAMA = "com.rychorantung.utspraktik_if1_10118005_rychorantung.NAMA";
     public static final String Extra_nik = "com.rychorantung.utspraktik_if1_10118005_rychorantung.nik";
