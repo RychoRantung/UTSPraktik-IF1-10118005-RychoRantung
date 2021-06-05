@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="271dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="25dp"
+        android:text="Form Pengisian Data"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:id="@+id/frame_1"
+        android:layout_width="370dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:background="@drawable/bgprimeryellow">
+
+        <TextView
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="12dp"
+            android:text="Info"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="337dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="43dp"
+            android:text="Form berikut ini bertujuan untuk memberikan informasi kepada pusat agar dapat mudah dilaporkan"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginTop="20dp">
+
+    <RelativeLayout
+        android:layout_width="376dp"
+        android:layout_height="670dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/teks1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            android:text="NIK"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_nik"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bggray"
+            android:hint="Masukkan NIK"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teks2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginRight="35dp"
+            android:text="Nama"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teks3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginRight="35dp"
+            android:text="• Harus Diisi"
+            android:textColor="@color/green500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_nama"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bggray"
+            android:hint="Masukkan Nama"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teks4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginRight="35dp"
+            android:text="Tanggal"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teks5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginRight="35dp"
+            android:text="• Harus Diisi"
+            android:textColor="@color/green500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_tanggal"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="205dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bggray"
+            android:drawableEnd="@drawable/date"
+            android:hint="Pilih Tanggal"
+            android:paddingTop="10dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teks6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginRight="35dp"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teks7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="107dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginRight="35dp"
+            android:text="• Harus Diisi"
+            android:textColor="@color/green500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/opsiJK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="280dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/jk_p"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="5"
+                android:checked="true"
+                android:buttonTint="@color/primarygreen"
+                android:text="Laki-Laki" />
+
+            <RadioButton
+                android:id="@+id/jk_l"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="5"
+                android:buttonTint="@color/primarygreen"
+                android:text="Perempuan" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/teks8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="366dp"
+            android:layout_marginRight="35dp"
+            android:text="Hubungan dengan Orangtua"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/teks9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="366dp"
+            android:layout_marginRight="35dp"
+            android:text="• Harus Diisi"
+            android:textColor="@color/green500"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/opsihbg"
+            android:layout_width="366dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="390dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/hbg_ortu"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="5"
+                android:checked="true"
+                android:buttonTint="@color/primarygreen"
+                android:text="Orangtua" />
+
+            <RadioButton
+                android:id="@+id/hbg_kapel"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="5"
+                android:buttonTint="@color/primarygreen"
+                android:text="Suami/Istri" />
+
+            <RadioButton
+                android:id="@+id/hbg_anak"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="5"
+                android:buttonTint="@color/primarygreen"
+                android:text="Anak" />
+
+            <RadioButton
+                android:id="@+id/hbg_kerabat"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="5"
+                android:buttonTint="@color/primarygreen"
+                android:text="Kerabat Lainnya" />
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_lanjut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/bgprimarygreen"
+            android:text="Selanjutnya"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
